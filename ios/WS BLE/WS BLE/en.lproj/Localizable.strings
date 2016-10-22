@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  WS BLE
+
+  Created by 杨伟标 on 16/9/6.
+  Copyright © 2016年 waveshare. All rights reserved.
+*/
+
+"Button_Scan"    = "Scan";
+"Button_Back"    = "Back";
+"Button_Clear"   = "Clear";
+"Button_Send"    = "Send";
+"Button_Romote_Control" = "Romote Control";
+"Button_Device_Control" = "Device Control";
+"Button_Uart"    = "UART";
+"Button_Setting" = "Setting";
+"Button_Done"    = "Done";
+"Button_Low"     = "Low";
+"Button_Medium"  = "Medium";
+"Button_High"    = "High";
+"Button_Reset"   = "Reset";
+"Button_BuzzerOFF" = "Buzzer:OFF";
+"Button_BuzzerON"  = "Buzzer:ON";
+
+"Label_Send"     = "Send";
+"Label_Received" = "Received";
+"Label_State"    = "State";
+"Label_RGB_LED"  = "RGB LED";
+"Label_RTC"      = "RTC";
+"Label_ACC"      = "ACC";
+"Label_ADC"      = "ADC";
+"Label_JOY"      = "JOY";
+"Label_TEMP"     = "TEMP";
+
+"Connection_Alert_Title"   = "Connection Alert";
+"Connection_Alert_Content" = "The peripheral disconnected while being interrogated.";
+"Connection_Alert_Button"  = "Dismiss";
+
+"Setting_Reset"  = "Reset";
+"Setting_Reset_Success" = "Reset Success！";
+"Setting_Title"  = "Setting";
+"Setting_Text"   = "Command for direction keys.";
+"Setting_Cancel" = "Cancel";
+"Setting_OK"     = "OK";
+"Setting_Keydown"= "Keydown";
+"Setting_Keyup"  = "Keyup";
+

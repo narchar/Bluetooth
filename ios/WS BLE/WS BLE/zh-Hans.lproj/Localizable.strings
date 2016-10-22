@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  WS BLE
+
+  Created by 杨伟标 on 16/9/6.
+  Copyright © 2016年 waveshare. All rights reserved.
+*/
+
+"Button_Scan"  = "扫描";
+"Button_Back"  = "返回";
+"Button_Clear" = "清空";
+"Button_Send"  = "发送";
+"Button_Romote_Control" = "遥控模式";
+"Button_Device_Control" = "外设控制";
+"Button_Uart"    = "串口调试";
+"Button_Setting" = "设置";
+"Button_Done"    = "完成";
+"Button_Low"     = "低速";
+"Button_Medium"  = "中速";
+"Button_High"    = "高速";
+"Button_Reset"   = "复位";
+"Button_BuzzerOFF" = "蜂鸣器:关";
+"Button_BuzzerON"  = "蜂鸣器:开";
+
+"Label_Send"     = "发送";
+"Label_Received" = "接收";
+"Label_State"    = "状态";
+"Label_RGB_LED"  = "多彩LED";
+"Label_RTC"      = "实时时钟";
+"Label_ACC"      = "加速度计";
+"Label_ADC"      = "电压";
+"Label_JOY"      = "摇杆";
+"Label_TEMP"     = "温度";
+
+"Connection_Alert_Title"   = "连接断开";
+"Connection_Alert_Content" = "蓝牙通信连接断开.";
+"Connection_Alert_Button"  = "断开";
+
+"Setting_Reset"  = "复位";
+"Setting_Reset_Success" = "复位成功！";
+"Setting_Title"  = "设置";
+"Setting_Text"   = "设置按钮点击时发送的数据。";
+"Setting_Cancel" = "取消";
+"Setting_OK"     = "保存";
+"Setting_Keydown"= "按下";
+"Setting_Keyup"  = "弹起";
+
