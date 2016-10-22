@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/setting_arrow_title">
+        <EditTextPreference android:drawableTop="@drawable/button_forward_green" android:key="SettingForwardDown" android:title="@string/setting_arrow_forward_down"/>
+        <EditTextPreference android:drawableTop="@drawable/button_forward_blue" android:key="SettingForwardUp" android:title="@string/setting_arrow_forward_up" />
+        <EditTextPreference android:drawableTop="@drawable/button_backward_green" android:key="SettingBackwardDown" android:title="@string/setting_arrow_backward_down" />
+        <EditTextPreference android:drawableTop="@drawable/button_backward_blue" android:key="SettingBackwardUp" android:title="@string/setting_arrow_backward_up" />
+        <EditTextPreference android:drawableTop="@drawable/button_left_green" android:key="SettingLeftDown" android:title="@string/setting_arrow_left_down" />
+        <EditTextPreference android:drawableTop="@drawable/button_left_blue" android:key="SettingLeftUp" android:title="@string/setting_arrow_left_up" />
+        <EditTextPreference android:drawableTop="@drawable/button_right_green" android:key="SettingRightDown" android:title="@string/setting_arrow_right_down" />
+        <EditTextPreference android:drawableTop="@drawable/button_right_blue" android:key="SettingRightUp" android:title="@string/setting_arrow_right_up" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/setting_speed_title">
+        <EditTextPreference android:key="SettingLowSpeed" android:title="@string/speed_low" />
+        <EditTextPreference android:key="SettingMediumSpeed" android:title="@string/speed_medium" />
+        <EditTextPreference android:key="SettingHighSpeed" android:title="@string/speed_high" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">WS EDR</string>
+
+    <!--Menu相关-->
+    <string name="menu_scan">搜索</string>
+    <string name="menu_stop">停止</string>
+    <string name="menu_config">设置</string>
+    <string name="menu_clear">清空</string>
+    <string name="menu_reset">复位</string>
+
+    <!--ActionBar相关-->
+    <string name="actionBar_find_device">查找蓝牙设备</string>
+    <string name="actionBar_choose_mode">选择模式</string>
+    <string name="actionBar_telecontroller_mode">遥控模式</string>
+    <string name="actionBar_uart_mode">串口调试模式</string>
+    <string name="actionBar_config">设置</string>
+
+    <!--Toast相关-->
+    <string name="bluetooth_not_supported">无法打开蓝牙</string>
+    <string name="ble_connected_success">连接成功</string>
+    <string name="ble_connected_failed">连接失败</string>
+    <string name="input_send_content">请输入要发送的内容</string>
+    <string name="reset_success">复位成功</string>
+
+    <!--内容相关-->
+    <string name="unknown_device">未知设备</string>
+    <string name="send_data">发送:</string>
+    <string name="receive_data">接收:</string>
+    <string name="waveshare_data">waveshare</string>
+
+    <!--控键相关-->
+    <string name="state">状态</string>
+    <string name="speed_high">高速</string>
+    <string name="speed_medium">中速</string>
+    <string name="speed_low">低速</string>
+    <string name="telecontroller_mode">遥控模式</string>
+    <string name="uart_mode">串口模式</string>
+    <string name="send_button">发送</string>
+    <string name="deviceController_mode">外设控制</string>
+
+    <!--设置相关-->
+    <string name="setting_speed_title">设置速度键按下时发送的命令</string>
+    <string name="setting_arrow_title">设置方向键按下和弹起时发送的命令</string>
+    <string name="setting_arrow_forward_down">前（按下）</string>
+    <string name="setting_arrow_forward_up">前（弹起）</string>
+    <string name="setting_arrow_backward_down">后（按下）</string>
+    <string name="setting_arrow_backward_up">后（弹起）</string>
+    <string name="setting_arrow_left_down">左（按下）</string>
+    <string name="setting_arrow_left_up">左（弹起）</string>
+    <string name="setting_arrow_right_down">右（按下）</string>
+    <string name="setting_arrow_right_up">右（弹起）</string>
+
+    <!--界面相关-->
+    <string name="device_display_R">红LED:</string>
+    <string name="device_display_G">绿LED:</string>
+    <string name="device_display_B">蓝LED:</string>
+    <string name="device_display_RGB">多彩LED</string>
+    <string name="device_display_RTC">实时时钟</string>
+    <string name="device_display_ACC">加速度计</string>
+    <string name="device_display_ADC">电压</string>
+    <string name="device_display_JOY">摇杆</string>
+    <string name="device_display_TEMP">温度</string>
+    <string name="device_display_BUZZER_ON">蜂鸣器：开</string>
+    <string name="device_display_BUZZER_OFF">蜂鸣器：关</string>
+</resources>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">WS EDR</string>
+
+    <!--Menu相关-->
+    <string name="menu_scan">scan</string>
+    <string name="menu_stop">stop</string>
+    <string name="menu_config">config</string>
+    <string name="menu_clear">clear</string>
+    <string name="menu_reset">reset</string>
+
+    <!--ActionBar相关-->
+    <string name="actionBar_find_device">Search Bluetooth</string>
+    <string name="actionBar_choose_mode">Choose Mode</string>
+    <string name="actionBar_telecontroller_mode">Remote Control</string>
+    <string name="actionBar_uart_mode">UART Debug Mode</string>
+    <string name="actionBar_config">Config</string>
+
+
+    <!--Toast相关-->
+    <string name="bluetooth_not_supported">Invalid bluetooth device</string>
+    <string name="ble_connected_success">Connected</string>
+    <string name="ble_connected_failed">Connection failed</string>
+    <string name="input_send_content">Please enter the content to be sent</string>
+    <string name="reset_success">Reset success</string>
+
+
+    <!--内容相关-->
+    <string name="unknown_device">Unknown Device</string>
+    <string name="send_data">Send:</string>
+    <string name="receive_data">Received:</string>
+    <string name="waveshare_data">waveshare</string>
+
+    <!--控键相关-->
+    <string name="state">State</string>
+    <string name="speed_high">High</string>
+    <string name="speed_medium">Medium</string>
+    <string name="speed_low">Low</string>
+    <string name="telecontroller_mode">Romote Control</string>
+    <string name="uart_mode">UART</string>
+    <string name="send_button">Send</string>
+    <string name="deviceController_mode">Device Control</string>
+
+    <!--设置相关-->
+    <string name="setting_speed_title">Command for speed keys</string>
+    <string name="setting_arrow_title">Command for direction keys</string>
+    <string name="setting_arrow_forward_down">Forward (keydown)</string>
+    <string name="setting_arrow_forward_up">Forward (keyup)</string>
+    <string name="setting_arrow_backward_down">Backward (keydown)</string>
+    <string name="setting_arrow_backward_up">Backward (keyup)</string>
+    <string name="setting_arrow_left_down">Left (keydown)</string>
+    <string name="setting_arrow_left_up">Left (keyup)</string>
+    <string name="setting_arrow_right_down">Right (keydown)</string>
+    <string name="setting_arrow_right_up">Right (keyup)</string>
+
+    <!--界面相关-->
+    <string name="device_display_R">RGB R:</string>
+    <string name="device_display_G">RGB G:</string>
+    <string name="device_display_B">RGB B:</string>
+    <string name="device_display_RGB">RGB LED</string>
+    <string name="device_display_RTC">RTC</string>
+    <string name="device_display_ACC">ACC</string>
+    <string name="device_display_ADC">ADC</string>
+    <string name="device_display_JOY">JOY</string>
+    <string name="device_display_TEMP">TEMP</string>
+    <string name="device_display_BUZZER_ON">Buzzer:ON</string>
+    <string name="device_display_BUZZER_OFF">Buzzer:OFF</string>
+</resources>

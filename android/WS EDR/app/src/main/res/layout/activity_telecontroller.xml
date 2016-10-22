@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.waveshare.wsedr.Telecontroller">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/telecontroller_button4"
+    android:background="@drawable/right_button_selector"
+    android:layout_toRightOf="@+id/textViewTemp"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="20dp" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/telecontroller_button3"
+    android:background="@drawable/left_button_selector"
+    android:layout_toLeftOf="@id/textViewTemp"
+    android:layout_marginRight="20dp"
+    android:layout_centerVertical="true" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/telecontroller_button2"
+    android:background="@drawable/backward_button_selector"
+    android:layout_below="@id/textViewTemp"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/telecontroller_button1"
+    android:background="@drawable/forward_button_selector"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@id/textViewTemp"
+    android:layout_marginBottom="20dp" />
+
+<TextView
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:id="@+id/textViewTemp"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="State"
+    android:id="@+id/state_textView"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/speed_medium"
+    android:id="@+id/telecontroller_speed_medium"
+    android:layout_below="@id/state_textView"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"
+    />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/speed_low"
+    android:id="@+id/telecontroller_speed_low"
+    android:layout_toLeftOf="@id/telecontroller_speed_medium"
+    android:layout_below="@id/state_textView"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/speed_high"
+    android:id="@+id/telecontroller_speed_High"
+    android:layout_toRightOf="@+id/telecontroller_speed_medium"
+    android:layout_below="@id/state_textView"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp" />
+
+
+
+</RelativeLayout>
